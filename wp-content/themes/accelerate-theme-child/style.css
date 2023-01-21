@@ -50,12 +50,21 @@ Text Domain:  accelerate-theme-child
 
 /* Case Studies */
 
+article .case-study {
+  margin: 40px 0 0;
+}
+
 aside.case-study-sidebar {
   float:left;
-  width:300px;
+  width: 300px;
 }
 
 div.case-study-images {
   float:left;
-  width:606px;
+  width: 600px;
+}
+
+div .case-study-images img {
+  display:block;
+  margin-bottom: 50px;
 }
